@@ -61,56 +61,56 @@ function weatherDetails(info){
 
         if(id == 800){
             wIcon.src = "/Weather_icons/clear.svg";
-            document.body.style.backgroundImage = "url('/Weather_condition_gifs/clearsky.gif')";
+            document.body.style.backgroundImage = "url('Weather_condition_gifs/clearsky.gif')";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.backgroundSize = "100% 100%";
-            audio = new Audio("/Weather_sounds/clear.mp3");
+            audio = new Audio("Weather_sounds/clear.mp3");
             audioloop(audio);
 
         }
         
         else if(id >= 200 && id <= 232){
             wIcon.src = "/Weather_icons/storm.svg";  
-            document.body.style.backgroundImage = "url('/Weather_condition_gifs/stormy.gif')";
+            document.body.style.backgroundImage = "url('Weather_condition_gifs/stormy.gif')";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.backgroundSize = "100% 100%";
-            audio = new Audio("/Weather_sounds/storm.mp3");
+            audio = new Audio("Weather_sounds/storm.mp3");
             audioloop(audio);
         }
         
         else if(id >= 600 && id <= 622){
             wIcon.src = "/Weather_icons/snow.svg";
-            document.body.style.backgroundImage = "url('/Weather_condition_gifs/snowfall.gif')";
+            document.body.style.backgroundImage = "url('Weather_condition_gifs/snowfall.gif')";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.backgroundSize = "100% 100%";
-            audio = new Audio("/Weather_sounds/snow.mp3");
+            audio = new Audio("Weather_sounds/snow.mp3");
             audioloop(audio);
         }
         
         else if(id >= 701 && id <= 781){
             wIcon.src = "/Weather_icons/haze.svg";
-            document.body.style.backgroundImage = "url('/Weather_condition_gifs/mist_foggy.gif')";
+            document.body.style.backgroundImage = "url('Weather_condition_gifs/mist_foggy.gif')";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.backgroundSize = "100% 100%";
-            audio = new Audio("/Weather_sounds/haze.wav");
+            audio = new Audio("Weather_sounds/haze.wav");
             audioloop(audio);
         }
         
         else if(id >= 801 && id <= 804){
             wIcon.src = "/Weather_icons/cloud.svg";
-            document.body.style.backgroundImage = "url('/Weather_condition_gifs/cloudy.gif')";
+            document.body.style.backgroundImage = "url('Weather_condition_gifs/cloudy.gif')";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.backgroundSize = "100% 100%";
-            audio = new Audio("/Weather_sounds/cloud.mp3");
+            audio = new Audio("Weather_sounds/cloud.mp3");
             audioloop(audio);
         }
         
         else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
             wIcon.src = "/Weather_icons/rain.svg";
-            document.body.style.backgroundImage = "url('/Weather_condition_gifs/raindrop.gif')";
+            document.body.style.backgroundImage = "url('Weather_condition_gifs/raindrop.gif')";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.backgroundSize = "100% 100%";
-            audio = new Audio("/Weather_sounds/rain.wav"); 
+            audio = new Audio("Weather_sounds/rain.wav"); 
             audioloop(audio);
         }
         
